@@ -1,0 +1,30 @@
+h1{
+    text-transform: uppercase;
+    text-align: center; 
+    color: #7aadd3;
+    background-color: black;
+}
+h3{
+    text-align: center;
+    background-color: #7aadd3;
+    color: white;
+}
+body{
+    text-align: center;
+}
+
+button{
+    background-color: #7aadd3;
+    color: white; 
+    border: black; 
+    border-radius: 10px;
+    /* no matter what size screen this button will ALWAYS be the same size because i used pixels */
+    width: 100px;
+    height: 25px
+}
+
+button:hover {
+    box-shadow: 10px 5px 5px gray;
+}
+
+
